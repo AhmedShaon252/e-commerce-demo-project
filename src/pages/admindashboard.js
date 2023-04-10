@@ -9,7 +9,7 @@ const Home = ({users}) => {
                     <li class="py-3 sm:py-4">
                         <div class="flex items-center space-x-4">
                             <div class="flex-shrink-0">
-                                <Image class="w-8 h-8 rounded-full" src={user.mediaurl} alt="user image"/>
+                                <Image class="w-8 h-8 rounded-full" src={''} alt="user image"/>
                             </div>
                             <div class="flex-1 min-w-0">
                                 <p class="text-sm font-medium text-gray-900 truncate dark:text-white">{user.name}</p>
